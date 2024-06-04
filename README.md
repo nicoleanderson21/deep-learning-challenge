@@ -1,21 +1,17 @@
 # Deep-learning-challenge Report
 
 # Overview:
-of the analysis: Explain the purpose of this analysis.
+
+The purpose of this analysis was to "create a binary classifier that can predict whether applicants will be successful if funded by Alphabet Soup".
 
 # Results: 
-Using bulleted lists and images to support your answers, address the following questions:
+
+N/A; model was not running, could not produce evaluation metrics
 
 # Data Preprocessing
 
-This model
+The features for this model consisted of applicationo type, affiliatino, classification, use case, organizatino type, status, income classification, special cnosideration, and ask amount. Using these features, the model aimed to predict whether or not an orginzation was/will be "successful" (if the money was used effectively). The ein and name columns were removed because they were not a measure of success. Certain rare classifications and application types were removed below a certain threshold, as their infrequency made them irrelevant. 
 
-What variable(s) are the target(s) for your model?
-What variable(s) are the features for your model?
-What variable(s) should be removed from the input data because they are neither targets nor features?
-Compiling, Training, and Evaluating the Model
+# Compiling, Training, and Evaluating the Model
 
-How many neurons, layers, and activation functions did you select for your neural network model, and why?
-Were you able to achieve the target model performance?
-What steps did you take in your attempts to increase model performance?
-Summary: Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and then explain your recommendation.
+I used 3 dense layers, 2 hidden with relu activatino functions and 1 output with a sigmooiod activation function. Unfortunately, I tried changing the activatino functions, adding layers, changing the amuont of epochs, but was not able to get the model running. 
