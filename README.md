@@ -1,14 +1,14 @@
 # Deep-learning-challenge Report
 
-For this part of the assignment, you’ll write a report on the performance of the deep learning model you created for Alphabet Soup.
+# Overview:
+of the analysis: Explain the purpose of this analysis.
 
-The report should contain the following:
+# Results: 
+Using bulleted lists and images to support your answers, address the following questions:
 
-Overview of the analysis: Explain the purpose of this analysis.
+# Data Preprocessing
 
-Results: Using bulleted lists and images to support your answers, address the following questions:
-
-Data Preprocessing
+This model
 
 What variable(s) are the target(s) for your model?
 What variable(s) are the features for your model?
